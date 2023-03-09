@@ -2,6 +2,11 @@
 using namespace std;
 
 int main(){
-    cout<< "bala venkat";
+    int a,b,c;
+    cout<<"enter numbers";
+    cin>> a;
+    cin>>b;
+    c=a+b;
+    cout<<a<< ends<< b<<ends<<c<<ends<<"bala venkat";
     return 0;
 }
