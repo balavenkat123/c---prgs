@@ -6,4 +6,10 @@ using namespace std;
         cout<<"bala"<<endl;
     }
 
+    int j=1;
+    while(j<=5){
+        cout<< "bala"<< j << endl;
+        j++;
+    }
+
  }
