@@ -2,14 +2,12 @@
 using namespace std;
 
 int main(){
-    int arr[5];
-   for(int i=0;i<=4;i++){
-    cin>>arr[i];
-
-   }
-    for(int i=0;i<=4;i++){
-      cout<<arr[i]<<endl;
-   
-}
-return 0;
+  int i,j;
+  for(i=0;i<=4;i++){
+    for(j=0;j<=4;j++){
+      cout<<"*";
+    } 
+    cout<<endl;
+  }
+  return 0;
 }
